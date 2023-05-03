@@ -24,12 +24,12 @@ public class UserController {
 	
 	//create
 	
-	@PostMapping
-	public ResponseEntity<User> createUser(@RequestBody User user)
-	{
-		User user1=userService.saveUser(user);
-		return ResponseEntity.status(HttpStatus.CREATED).body(user);
-	}
+//	@PostMapping
+//	public ResponseEntity<User> createUser(@RequestBody User user)
+//	{
+//		User user1=userService.saveUser(user);
+//		return ResponseEntity.status(HttpStatus.CREATED).body(user);
+//	}
 
 	
 	@GetMapping("/{userId}")
